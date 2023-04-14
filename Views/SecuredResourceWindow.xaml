@@ -1,0 +1,33 @@
+<Window x:Class="CourseWork.Views.SecuredResourceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Защищённый ресурс" Height="450" Width="400" Background="#FF129E98">
+    <Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="5px" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="5px" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="5px" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="5px" />
+    </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock FontSize="18" Text="Защищённый ресурс" />
+            <TextBlock Visibility="Collapsed" x:Name="TextBlock" FontSize="12" TextWrapping="Wrap" Text="Схема Эль-Гамаля (Elgamal) — криптосистема с открытым ключом, основанная на трудности вычисления дискретных логарифмов в конечном поле. Криптосистема включает в себя алгоритм шифрования и алгоритм цифровой подписи. Схема Эль-Гамаля лежит в основе бывших стандартов электронной цифровой подписи в США (DSA) и России.
+Шифрование Эль-Гамаля может быть определено для любой циклической группы.
+G, как мультипликативная группа целых чисел по модулю n. Его безопасность зависит от сложности определенной проблемы в
+G относится к вычислению дискретных логарифмов" />
+            <TextBlock x:Name="SecuredResource" />
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Margin="10" Width="100" Height="25" Content="Выйти" Click="Logout_Click" />
+                <Button Margin="10" Width="100" Height="25" Content="Назад" Click="Back_Click" />
+                </WrapPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

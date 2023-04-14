@@ -1,0 +1,23 @@
+14.04.2023 14:43:00: User clicked to login button
+14.04.2023 14:45:01: User clicked to login button
+14.04.2023 14:45:23: User  tried to login
+14.04.2023 14:46:52: User clicked to login button
+14.04.2023 14:47:33: User clicked to login button
+14.04.2023 14:48:03: User clicked to login button
+14.04.2023 14:55:16: User clicked to secured resource button
+14.04.2023 14:55:30: User  went back to main window
+14.04.2023 14:59:06: User clicked to login button
+14.04.2023 14:59:08: User returned to main window
+14.04.2023 14:59:11: User clicked to login button
+14.04.2023 14:59:19: User vlad tried to login
+14.04.2023 14:59:24: User vlad tried to login
+14.04.2023 14:59:28: User admin tried to login
+14.04.2023 14:59:30: User returned to main window
+14.04.2023 14:59:33: User clicked to secured resource button
+14.04.2023 14:59:34: User  went back to main window
+14.04.2023 15:28:49: User clicked to login button
+14.04.2023 15:28:57: User admin tried to login
+14.04.2023 15:28:59: admin clicked to login button
+14.04.2023 15:29:01: User admin returned to main window
+14.04.2023 15:29:01: admin clicked to register button
+14.04.2023 15:29:14: User vlad tried to register by admin
