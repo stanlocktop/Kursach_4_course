@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="RegisterWindow" Height="180" Width="310">
+        Title="Регистрация" Height="180" Width="310" Background="#FF129E98">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="5px" />
@@ -21,18 +21,18 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row='0' FontSize="18" Grid.Column="0" Text="Registration" />
+            <TextBlock Grid.Row='0' FontSize="18" Grid.Column="0" Text="Регистрация" />
             <WrapPanel Grid.Row="1" MaxWidth="300px" HorizontalAlignment="Center">
             <StackPanel Margin="10">
-<TextBlock FontSize="12" Text="User name" />
+<TextBlock FontSize="12" Text="Имя" />
                 <TextBox FontSize="12" Width="100" x:Name="Username" />
             </StackPanel>
                 <StackPanel Margin="10">
-                <TextBlock FontSize="12" Text="Password" />
+                <TextBlock FontSize="12" Text="Пароль" />
                 <PasswordBox FontSize="12" Width="100" x:Name="Password" />
             </StackPanel>
-                <Button Margin="10" Width="100" Height="25" Content="Register" Click="Register_Click" />
-                <Button Margin="10" Width="100" Height="25" Content="Back" Click="Back_Click" />
+                <Button Margin="10" Width="100" Height="25" Content="Регистарция" Click="Register_Click" />
+                <Button Margin="10" Width="100" Height="25" Content="Назад" Click="Back_Click" />
             </WrapPanel>
         </Grid>
 
