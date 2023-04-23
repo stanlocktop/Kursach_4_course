@@ -8,7 +8,7 @@ namespace CourseWork.Services
 {
     public class FileLogger : ILogger
     {
-        private const string LogPath = "C:\\Users\\wlad-\\Desktop";
+        private const string LogPath = "C:\\Users\\wlad-\\Desktop\\log.txt";
         public FileLogger()
         {
             if (!File.Exists(LogPath))

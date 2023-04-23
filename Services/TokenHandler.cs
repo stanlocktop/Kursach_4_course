@@ -6,7 +6,7 @@ namespace CourseWork.Services;
 
 public class TokenHandler : ITokenHandler
 {
-    private const int ExpirationTime = 10;
+    private const int ExpirationTime = 60;
     private readonly IEncryptHandler _encryptHandler;
     private readonly ITokenCreator _tokenCreator;
 
