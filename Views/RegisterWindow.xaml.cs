@@ -46,15 +46,11 @@ public partial class RegisterWindow : Window
     {
         var authenticatedUsername = _authenticationService.GetUser(Client.Token)?.Username;
         if (authenticatedUsername is not null)
-<<<<<<< HEAD
+
             _logger.Log($"Пользователь {Username.Text} успешно зарегестрировался {authenticatedUsername}");
         else
             _logger.Log($"Пользователь {Username.Text} прошел регистрацию");
-=======
-            _logger.Log($"Пользователь {Username.Text} пытался зарегистрироваться через {authenticatedUsername}");
-        else
-            _logger.Log($"Пользователь {Username.Text} пытался зарегистрироваться через");
->>>>>>> f9aa72d58ea65d48f45734c98ad01701c69b38ef
+
         _authenticationService.Register(Username.Text, Password.Password);
 
         MessageBox.Show("Вы успешно зарегистрировались!");
@@ -67,11 +63,8 @@ public partial class RegisterWindow : Window
     {
         var username = _authenticationService.GetUser(Client.Token)?.Username;
         if (username is not null)
-<<<<<<< HEAD
+
             _logger.Log($"Пользователь {username}  вернулся в главное окно");
-=======
-            _logger.Log($"Пользователь {username} вернулся в главное окно");
->>>>>>> f9aa72d58ea65d48f45734c98ad01701c69b38ef
         else
             _logger.Log("Пользователь вернулся в главное окно");
         var mainWindow = new MainWindow(_authenticationService, _authorizationService,  _logger);
